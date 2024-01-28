@@ -88,28 +88,28 @@ document.getElementById("generate-button").addEventListener("click", function() 
     // SOUNDSCAPE, SOUND EFFECTS FROM SOUNDSTRIPE
     // Change the image source based on the condition
     if (sound_effect == "rain") {
-        source.src = "images/rain.mp3";
+        source.src = "./images/rain.mp3";
         audio.load();
         audio.play();
         gif.src = "/Users/meghnakaligotla/Generating Concepts/images/rain.gif";
 
     } else if (sound_effect == "arctic wind") {
-        source.src = "images/arcticwind.mp3";
+        source.src = "./images/arcticwind.mp3";
         audio.load();
         audio.play();
         gif.src = "/Users/meghnakaligotla/Generating Concepts/images/arcticwind.gif";
     } else if (sound_effect == "thunder") {
-        source.src = "images/thunder.mp3";
+        source.src = "./images/thunder.mp3";
         audio.load();
         audio.play();
         gif.src = "/Users/meghnakaligotla/Generating Concepts/images/thunder.gif";
     }  else if (sound_effect == "campfire") {
-        source.src = "images/campfire.mp3";
+        source.src = "./images/campfire.mp3";
         audio.load();
         audio.play();
         gif.src = "/Users/meghnakaligotla/Generating Concepts/images/campfire.gif";
     } else {
-        source.src = "images/starry.mp3";
+        source.src = "./images/starry.mp3";
         audio.load();
         audio.play();
         gif.src = "/Users/meghnakaligotla/Generating Concepts/images/starry.gif";
