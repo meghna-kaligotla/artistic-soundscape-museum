@@ -43,19 +43,19 @@ document.getElementById("generate-button").addEventListener("click", function() 
 
     // Change the image source based on the condition
     if (painting_color == "muted") {
-        image1.src = "/Users/meghnakaligotla/Generating Concepts/images/muted.png";
+        image1.src = "./Users/meghnakaligotla/Generating Concepts/images/muted.png";
         image1.alt = "Muted painting";
     } else if (painting_color == "bright") {
-        image1.src = "/Users/meghnakaligotla/Generating Concepts/images/bright.png";
+        image1.src = "./Users/meghnakaligotla/Generating Concepts/images/bright.png";
         image1.alt = "Bright painting";
     } else if (painting_color == "warm") {
-        image1.src = "/Users/meghnakaligotla/Generating Concepts/images/warm.png";
+        image1.src = "./Users/meghnakaligotla/Generating Concepts/images/warm.png";
         image1.alt = "Warm painting";
     }  else if (painting_color == "cool") {
-        image1.src = "/Users/meghnakaligotla/Generating Concepts/images/cool.png";
+        image1.src = "./Users/meghnakaligotla/Generating Concepts/images/cool.png";
         image1.alt = "Cool painting";
     } else {
-        image1.src = "/Users/meghnakaligotla/Generating Concepts/images/earthy.png";
+        image1.src = "./Users/meghnakaligotla/Generating Concepts/images/earthy.png";
         image1.alt = "Earthy painting";
     }
 
@@ -65,19 +65,19 @@ document.getElementById("generate-button").addEventListener("click", function() 
 
     // Change the image source based on the condition
     if (art_style == "cubism") {
-        image2.src = "/Users/meghnakaligotla/Generating Concepts/images/cubism.png";
+        image2.src = "./Users/meghnakaligotla/Generating Concepts/images/cubism.png";
         image2.alt = "Cubism painting";
     } else if (art_style == "art deco") {
-        image2.src = "/Users/meghnakaligotla/Generating Concepts/images/artdeco.png";
+        image2.src = "./Users/meghnakaligotla/Generating Concepts/images/artdeco.png";
         image2.alt = "Art Deco painting";
     } else if (art_style == "pop art") {
-        image2.src = "/Users/meghnakaligotla/Generating Concepts/images/popart.png";
+        image2.src = "./Users/meghnakaligotla/Generating Concepts/images/popart.png";
         image2.alt = "Pop Art painting";
     }  else if (art_style == "surrealism") {
-        image2.src = "/Users/meghnakaligotla/Generating Concepts/images/surrealism.png";
+        image2.src = "./Users/meghnakaligotla/Generating Concepts/images/surrealism.png";
         image2.alt = "Surrealism painting";
     } else {
-        image2.src = "/Users/meghnakaligotla/Generating Concepts/images/graffiti.png";
+        image2.src = "./Users/meghnakaligotla/Generating Concepts/images/graffiti.png";
         image2.alt = "Graffiti painting";
     }
 
@@ -91,28 +91,28 @@ document.getElementById("generate-button").addEventListener("click", function() 
         source.src = "./images/rain.mp3";
         audio.load();
         audio.play();
-        gif.src = "/Users/meghnakaligotla/Generating Concepts/images/rain.gif";
+        gif.src = "./Users/meghnakaligotla/Generating Concepts/images/rain.gif";
 
     } else if (sound_effect == "arctic wind") {
         source.src = "./images/arcticwind.mp3";
         audio.load();
         audio.play();
-        gif.src = "/Users/meghnakaligotla/Generating Concepts/images/arcticwind.gif";
+        gif.src = "./Users/meghnakaligotla/Generating Concepts/images/arcticwind.gif";
     } else if (sound_effect == "thunder") {
         source.src = "./images/thunder.mp3";
         audio.load();
         audio.play();
-        gif.src = "/Users/meghnakaligotla/Generating Concepts/images/thunder.gif";
+        gif.src = "./Users/meghnakaligotla/Generating Concepts/images/thunder.gif";
     }  else if (sound_effect == "campfire") {
         source.src = "./images/campfire.mp3";
         audio.load();
         audio.play();
-        gif.src = "/Users/meghnakaligotla/Generating Concepts/images/campfire.gif";
+        gif.src = "./Users/meghnakaligotla/Generating Concepts/images/campfire.gif";
     } else {
         source.src = "./images/starry.mp3";
         audio.load();
         audio.play();
-        gif.src = "/Users/meghnakaligotla/Generating Concepts/images/starry.gif";
+        gif.src = "./Users/meghnakaligotla/Generating Concepts/images/starry.gif";
 
     }
 });
