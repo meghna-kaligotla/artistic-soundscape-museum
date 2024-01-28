@@ -65,7 +65,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
 
     // Change the image source based on the condition
     if (art_style == "cubism") {
-        image2.src = "./cubism.png";
+        image2.src = "./images/cubism.png";
         image2.alt = "Cubism painting";
     } else if (art_style == "art deco") {
         image2.src = "./images/artdeco.png";
@@ -107,7 +107,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
         source.src = "./images/campfire.mp3";
         audio.load();
         audio.play();
-        gif.src = "./campfire.gif";
+        gif.src = ".images/campfire.gif";
     } else {
         source.src = "./images/starry.mp3";
         audio.load();
