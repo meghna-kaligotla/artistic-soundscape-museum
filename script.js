@@ -107,7 +107,7 @@ document.getElementById("generate-button").addEventListener("click", function() 
         source.src = "./images/campfire.mp3";
         audio.load();
         audio.play();
-        gif.src = ".images/campfire.gif";
+        gif.src = "./images/campfire.gif";
     } else {
         source.src = "./images/starry.mp3";
         audio.load();
