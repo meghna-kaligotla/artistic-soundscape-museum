@@ -1,0 +1,104 @@
+body {
+    background-image: url('images/museum_wall.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
+ /* Set the image size */
+img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+#painting-1 {
+    position: fixed;
+    left: 940px;
+    bottom: 400px;
+}
+
+#painting-2 {
+    position: fixed;
+    left: 1300px;
+    bottom: 400px;
+}
+
+#gif {
+    height: 100vh;
+    width: 100vw;
+}
+
+#text-content {
+    position: fixed;
+    margin-left:73px;
+    margin-top: 210px;
+}
+
+#painting-color {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#art-style {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#sound-effect {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#generatedtext-1 {
+    display: inline-block;
+}
+
+#generatedtext-2 {
+    display: inline-block;
+}
+
+#generatedtext-3 {
+    display: inline-block;
+}
+
+#generatedtext-4 {
+    display: inline-block;
+}
+
+#lastLine {
+    line-height:0.005%;
+}
+
+h2 {
+    font-family: Futura;
+    font-weight: 300;
+    color: #30302D;
+}
+
+h3 {
+    font-family: Futura;
+    font-weight: 300;
+    color: #30302D;
+}
+
+button {
+    height:50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: Futura;
+    color: #30302D;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    border: 2.5px solid #30302D;
+
+
+}
+
+/* Set the image location */
+#image-container {
+    margin-top: 50px; /* Adjust the top margin as needed */
+    margin-left: 20px; /* Adjust the left margin as needed */
+}
